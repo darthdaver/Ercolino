@@ -1,4 +1,4 @@
-Project aim : Self-Balancing Robot with Arduino and Kalman filter.
+Project Aim : Self-Balancing Robot with Arduino and Kalman Filter.
 
 *******************************************************************************
 
@@ -16,7 +16,7 @@ Contains the source code for the Arduino Uno micro-controller.
 
 Demo
 --------
-Contains a video demonstration video about the functioning of the robot.
+Contains a demonstration video about the functioning of the robot.
 
 *******************************************************************************
 
