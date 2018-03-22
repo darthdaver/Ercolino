@@ -150,7 +150,7 @@ void loop() {
   // calling the Kalman filter update function
   float kalmanAngle = KFilter.getAngle(accAngle, gyroYRate, dt_sec);
 
-  // TODO PID & Motor Control
+  // PID & Motor Control
   float pidOutput = updatePID(kalmanAngle, dt_sec);
   // enabling motors only if the robot is near the vertical position
   if (abs(kalmanAngle) < 30) {
